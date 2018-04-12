@@ -3,7 +3,7 @@
 im_o = imread('crop1.jpg');
 im = histeq(im_o(:,:,2));
 
-% Jajajaj
+% Antonio se enajena
 
 se = strel('square', 10);
 Io = imopen(im, se);
